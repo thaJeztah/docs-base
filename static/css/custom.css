@@ -52,11 +52,18 @@ pre {
   border: 1px solid #ffcb94;
   margin-bottom: 1.5rem;
 }
+
 code {
+  border: none;
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 0.325rem;
   white-space: nowrap;
 }
 
 pre > code {
+  font-size: 0.8rem;
+  font-weight: normal;
   white-space: pre;
   border: none;
 }
